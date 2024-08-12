@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <ndv class="logo">Mohamed fetoh</ndv>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Fetoh</div>
+      <div class="hamburger-menu">
+  <!----     <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>-->
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/image1.png" alt="mohamed fetoh picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mohamed Fetoh</h1>
+        <p class="section__text__p2">Frontend Developer & Graphic Designer</p>
+        <div class="btn-container">
+          
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+           Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/facebook-brands-solid.png.svg"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/mo7amed.fotouh?mibextid=ZbWKwL'"
+          />
+          
+          <img
+            src="./assets/square-instagram-brands-solid.png.svg"
+            alt="My Instgram profile"
+            class="icon" 
+            onclick="location.href='https://www.instagram.com/mo7amed_fotouh?igsh=dXl0cWF2aXdpeWdu'" 
+          />
+          <img
+            src="./assets/facebook-messenger-brands-solid.png.svg"
+            alt="My facebook Messenger"
+            class="icon" 
+            onclick="location.href='https://m.me/mo7amed.fotouh'" 
+          />
+          <img
+          src="./assets/envelope-solid.png.svg"
+          alt="My Email"
+          class="icon" 
+          onclick="location.href='mailto:mohamedfetoh.w@mail.com'"/>
+          <img
+            src="./assets/square-whatsapp-brands-solid (1).png.svg"
+            alt="My Whatsapp"
+            class="icon" 
+            onclick="location.href='https://wa.me/2001154618586?text='" 
+          />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/altumcode-PNbDkQ2DDgM-unsplash.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Engineering student<br />Production & Mechanical Design</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Graphic<br>Designer</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Develop and design interactive web interfaces using HTML, CSS, and JavaScript, ensuring site compatibility across devices and browsers. I also create custom logos that reflect brand identities, offer various options, and make adjustments based on customer feedback. Collaborate with cross-functional teams and manage projects effectively to deliver high-quality work within deadlines. Stay up to date with the latest trends in web development and design to ensure innovation and effectiveness.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+                
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Graphic Designer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Logo Designer</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Invitation designer</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+             
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/تصميم بدون عنوان.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+           <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >-
+                Live Demo
+              </button>-->
+              <p>Website for a restaurant and cafe using html, css, js</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/تصميم بدون عنوان (1).png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+          <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>-->
+              <p>A shoe store using html, css, and js</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/تصميم بدون عنوان (2).png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+          <!---<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>-->
+              <p>Logo for a sports clothing store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section class="contact" id="contact">
+      <div class="top_section">
+        <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="container">
+
+       
+
+       <!---- <form action="https://formspree.io/f/mrbzkoqe">
+                <div class="inputs_form">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+
+                <textarea name="" id="" rows="10" placeholder="Your Message Here ..."></textarea>
+            </div>
+
+            <button class="btn">Send Message</button>
+
+        </form>-->
+        <!-- modify this form HTML and place wherever you want your form -->
+<!-- Modify this form HTML and place wherever you want your form -->
+<!-- Modify this form HTML and place wherever you want your form -->
+<!-- Modify this form HTML and place wherever you want your form -->
+<!-- Modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mrbzkoqe"
+  method="POST"
+  style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;"
+>
+  <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+    <label for="first-name" style="flex: 1;">
+      First Name:
+      <input type="text" id="first-name" name="first-name" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;">
+    </label>
+    
+    <label for="last-name" style="flex: 1;">
+      Last Name:
+      <input type="text" id="last-name" name="last-name" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;">
+    </label>
+  </div>
+
+  <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+    <label for="phone" style="flex: 1;">
+      Phone Number:
+      <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;">
+    </label>
+    
+    <label for="address" style="flex: 1;">
+      Address:
+      <input type="text" id="address" name="address" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;">
+    </label>
+  </div>
+
+  <label for="email" style="display: block; margin-bottom: 10px;">
+    Email:
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;">
+  </label>
+  
+  <label for="message" style="display: block; margin-bottom: 10px;">
+    Your Message:
+    <textarea id="message" name="message" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-top: 5px;"></textarea>
+  </label>
+  
+  <!-- Your other form fields go here -->
+  
+  <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; border-radius: 5px; width: 100%; margin-top: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+    Send
+  </button>
+</form>
+
+<style>
+  button[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+</style>
+
+
+
+
+
+    </div>
+
+</section>
+
+    <footer>
+      <p>Copyright &#169; 2024 Mohamed Fetoh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
